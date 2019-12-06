@@ -28,7 +28,6 @@ public class Mainclass {
 			Agent agent=new Agent();
 			agent.display();
 		case 3:
-			System.out.println("exit");
 			System.exit(0);
 		}
 	}

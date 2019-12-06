@@ -99,17 +99,17 @@ public class Admin
 				 break;
 				 case 5:
 						System.out.println("Admin account logout");
+						Mainclass ma=new Mainclass();
+						ma.show();
 				break;
 				}
-				Mainclass ma=new Mainclass();
-				ma.show();
+				
 			}while(n!=0);
 				
 		}
 			else
 				System.out.println("invalid");
-			Mainclass ma=new Mainclass();
-			ma.show();
+			
 		}
 		
 	}
